@@ -9,6 +9,10 @@ import camp.nextstep.edu.missionutils.Randoms;
 public class Computer {
 	BallRepository ballRepository = new BallRepository();
 
+	public void createBalls() {
+		ballRepository.insertBall(createRandomNumbers());
+	}
+
 	private List<Integer> createRandomNumbers() {
 		LinkedHashSet<Integer> tempSet = new LinkedHashSet<>();
 		while (tempSet.size() != 3) {
