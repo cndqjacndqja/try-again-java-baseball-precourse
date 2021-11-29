@@ -16,4 +16,8 @@ public class BallRepository {
 	public void clearBallList() {
 		ballList.clear();
 	}
+
+	public List<Ball> getBallList() {
+		return ballList;
+	}
 }

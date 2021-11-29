@@ -37,4 +37,7 @@ public class User {
 		throw new IllegalArgumentException();
 	}
 
+	public List<Ball> getBallList() {
+		return ballRepository.getBallList();
+	}
 }

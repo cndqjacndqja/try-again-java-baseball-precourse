@@ -20,4 +20,8 @@ public class Computer {
 		}
 		return new ArrayList<>(tempSet);
 	}
+
+	public List<Ball> getBallList() {
+		return ballRepository.getBallList();
+	}
 }
