@@ -125,6 +125,7 @@ This project is [MIT](https://github.com/woowacourse/java-baseball-precourse/blo
 - [ ] 컴퓨터가 임의의 수 3개를 랜덤으로 생성
 - [ ] 숫자 입력 뷰 출력
 - [ ] 사용자 숫자 입력
+- [ ] 사용자 입력 숫자로 야구공 생성하기
 - [ ] 정답 or 힌트 출력
 - [ ] 정답 입력 시, 다시 시작 OR 종료 입력
 - [ ] 다시 시작 or 종료 수행
