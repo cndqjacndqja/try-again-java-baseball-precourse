@@ -6,7 +6,8 @@ public class Machine {
 	public void run() {
 		Game game = new Game();
 		game.run();
-		if(whetherRestart()) {
+		if (whetherRestart()) {
+			System.out.println("게임 종료");
 			return;
 		}
 		run();

@@ -1,5 +1,8 @@
 package baseball;
 
+import java.util.List;
+
+import baseball.domain.Ball;
 import baseball.domain.Computer;
 import baseball.domain.Referee;
 import baseball.domain.User;
@@ -19,10 +22,10 @@ public class Game {
 	public void run() {
 		user.insertNumbers(InputView.inputNumbers());
 		referee.judge(user.getBallList());
+		OutputView.printHint(referee.getStringHint());
 		if (referee.correctAnswer()) {
 			return;
 		}
-		OutputView.printHint(referee.getStringHint());
 		referee.clearStrikeAndBall();
 		run();
 	}

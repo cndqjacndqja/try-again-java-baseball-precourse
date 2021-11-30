@@ -25,13 +25,13 @@ public class User {
 
 	private void validateDuplicate(String input) {
 		LinkedHashSet<String> tempSet = new LinkedHashSet<>(Arrays.asList(input.split("")));
-		if(tempSet.size() != 3) {
+		if (tempSet.size() != 3) {
 			throw new IllegalArgumentException();
 		}
 	}
 
 	private void validateNumber(int number) {
-		if(number >= 1 && number <= 9) {
+		if (number >= 1 && number <= 9) {
 			return;
 		}
 		throw new IllegalArgumentException();
